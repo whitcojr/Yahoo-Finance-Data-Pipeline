@@ -1,0 +1,31 @@
+# ──────────────────────────────────────────────
+# config.yaml – edit this file to change tickers,
+# date range, and output preferences.
+# ──────────────────────────────────────────────
+
+tickers:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - TSLA
+
+# Historical price window
+start_date: "2024-01-01"
+end_date: "2024-12-31"
+
+# Moving-average windows (in trading days)
+moving_averages:
+  - 20
+  - 50
+
+# Output settings
+output:
+  directory: "output"          # relative to project root
+  format: "csv"                # csv | excel | json
+  summary_report: true         # generate a per-ticker summary .txt
+
+# Logging
+logging:
+  level: "INFO"                # DEBUG | INFO | WARNING | ERROR
+  file: "app.log"
