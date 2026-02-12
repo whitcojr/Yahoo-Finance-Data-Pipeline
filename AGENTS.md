@@ -3,7 +3,7 @@
 ## Overview
 
 This project was developed with assistance from Claude (Anthropic), an AI
-language model, as part of the IS 4010 final project.
+language model.
 
 ## How AI Was Used
 
