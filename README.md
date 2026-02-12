@@ -56,7 +56,7 @@ Yahoo-Finance-Data-Pipeline/
 ### 1. Clone & create a virtual environment
 
 ```bash
-git clone https://github.com/<your-username>/Yahoo-Finance-Data-Pipeline.git
+git clone https://github.com/<whitcojr>/Yahoo-Finance-Data-Pipeline.git
 cd Yahoo-Finance-Data-Pipeline
 
 python -m venv venv
