@@ -55,14 +55,24 @@ Yahoo-Finance-Data-Pipeline/
 
 ### 1. Clone & create a virtual environment
 
+**macOS / Linux:**
+
 ```bash
 git clone https://github.com/whitcojr/Yahoo-Finance-Data-Pipeline.git
 cd Yahoo-Finance-Data-Pipeline
-
 python -m venv venv
-source venv/bin/activate        # macOS / Linux
-# venv\Scripts\activate         # Windows
+source venv/bin/activate
 ```
+
+**Windows (Git Bash):**
+
+```bash
+git clone https://github.com/whitcojr/Yahoo-Finance-Data-Pipeline.git
+cd Yahoo-Finance-Data-Pipeline
+python -m venv venv
+source venv/Scripts/activate
+```
+
 
 ### 2. Install dependencies
 
