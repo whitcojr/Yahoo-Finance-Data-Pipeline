@@ -6,7 +6,9 @@
 
 A configurable Python pipeline that pulls stock data from Yahoo Finance,
 calculates derived metrics, and exports clean reports — all driven by a
-single YAML config file.
+single YAML config file. I have found this very helpful to pull a company's data
+and tranform it into a .csv file which can then be used in excel for 
+financial evaluations or database work.
 
 ---
 
