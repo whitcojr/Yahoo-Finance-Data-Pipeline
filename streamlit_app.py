@@ -26,6 +26,16 @@ st.set_page_config(
 st.markdown("""
 <style>
     [data-testid="stSidebar"] { background-color: #0f1117; }
+    [data-testid="stSidebar"] * {
+        color: #f8fafc;
+    }
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] .stMarkdown,
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] div {
+        color: #f8fafc;
+    }
     .metric-card {
         background: linear-gradient(135deg, #1a1d2e 0%, #16213e 100%);
         border: 1px solid #0f3460;
