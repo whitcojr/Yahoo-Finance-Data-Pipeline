@@ -36,6 +36,24 @@ st.markdown("""
     [data-testid="stSidebar"] div {
         color: #f8fafc;
     }
+    /* Make user-entered values high contrast in input controls. */
+    [data-testid="stSidebar"] input,
+    [data-testid="stSidebar"] textarea,
+    [data-testid="stSidebar"] select {
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+    }
+    [data-testid="stSidebar"] .stButton > button {
+        background-color: #f8fafc;
+        color: #0f1117;
+        border: 1px solid #f8fafc;
+        font-weight: 700;
+    }
+    [data-testid="stSidebar"] .stButton > button:hover {
+        background-color: #dbe4ee;
+        color: #0f1117;
+        border-color: #dbe4ee;
+    }
     .metric-card {
         background: linear-gradient(135deg, #1a1d2e 0%, #16213e 100%);
         border: 1px solid #0f3460;
